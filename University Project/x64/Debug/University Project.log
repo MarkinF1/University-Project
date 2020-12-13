@@ -1,0 +1,16 @@
+﻿  glad.c
+  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\shader.h(56,40): warning C4101: e: неиспользованная локальная переменная
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\mesh.h(88,1): warning C4267: аргумент: преобразование из "size_t" в "GLsizei"; возможна потеря данных
+D:\My files\University-Project\University Project\Source.cpp(25,24): warning C4305: инициализация: усечение из "double" в "float"
+D:\My files\University-Project\University Project\Source.cpp(89,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\My files\University-Project\University Project\Source.cpp(90,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\My files\University-Project\University Project\Source.cpp(94,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\My files\University-Project\University Project\Source.cpp(95,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\My files\University-Project\University Project\Source.cpp(97,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\My files\University-Project\University Project\Source.cpp(98,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\My files\University-Project\University Project\Source.cpp(104,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\My files\University-Project\University Project\Source.cpp(861,24): warning C4244: инициализация: преобразование "double" в "GLfloat", возможна потеря данных
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: "SOIL.pdb" PDB не найден с "SOIL.lib(stb_image_aug.obj)" или на "D:\My files\University-Project\University Project\x64\Debug\SOIL.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  University Project.vcxproj -> D:\My files\University-Project\University Project\x64\Debug\University Project.exe
