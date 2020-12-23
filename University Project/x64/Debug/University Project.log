@@ -9,19 +9,7 @@ D:\My files\University-Project\University Project\Source.cpp(95,16): warning C42
 D:\My files\University-Project\University Project\Source.cpp(97,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
 D:\My files\University-Project\University Project\Source.cpp(98,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
 D:\My files\University-Project\University Project\Source.cpp(104,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
-D:\My files\University-Project\University Project\Source.cpp(860,24): warning C4244: инициализация: преобразование "double" в "GLfloat", возможна потеря данных
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(7571,45): error C2676: бинарный "-": "const std::_Tree_unchecked_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,glm::vec3>>>>" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(7576): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)"
-          with
-          [
-              _RanIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,glm::vec3>>>>,
-              _Pr=std::less<void>
-          ]
-D:\My files\University-Project\University Project\Source.cpp(929): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::sort<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,glm::vec3>>>>>(const _RanIt,const _RanIt)"
-          with
-          [
-              _RanIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,glm::vec3>>>>
-          ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(7571,5): error C2672: "_Sort_unchecked": не найдена соответствующая перегруженная функция
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(7571,1): error C2780: void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr): требует аргументов: 4, имеется: 3
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\algorithm(7537): message : см. объявление "std::_Sort_unchecked"
+D:\My files\University-Project\University Project\Source.cpp(862,24): warning C4244: инициализация: преобразование "double" в "GLfloat", возможна потеря данных
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: "SOIL.pdb" PDB не найден с "SOIL.lib(stb_image_aug.obj)" или на "D:\My files\University-Project\University Project\x64\Debug\SOIL.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  University Project.vcxproj -> D:\My files\University-Project\University Project\x64\Debug\University Project.exe
