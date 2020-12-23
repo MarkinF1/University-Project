@@ -751,10 +751,9 @@ int main()
 	// load textures
 	// -------------
 	unsigned int presents = loadTexture("Content/container2.png");
-	unsigned int specularMapOldCubes = loadTexture("Content/container2_specular.png");//---------------------------------------
+	unsigned int specularMapOldCubes = loadTexture("Content/container2_specular.png");
 	unsigned int floorTexture = loadTexture("Content/floor.jpg");
-	//unsigned int woodTexture = loadTexture("Container/woodenfloor2.jpg");
-	unsigned int transparentTexture = loadTexture("Content/window.png");//-----------------------------------------------------
+	unsigned int transparentTexture = loadTexture("Content/window.png");
 	unsigned int diffuseParallaxMap = loadTexture("Content/parallax/bricks.jpg");
 	unsigned int normalParallaxMap = loadTexture("Content/parallax/bricks_normal.jpg");
 	unsigned int heightParallaxMap = loadTexture("Content/parallax/bricks_disp.jpg");
@@ -927,7 +926,8 @@ int main()
 		// windows
 		glBindVertexArray(transparentVAO);
 		glBindTexture(GL_TEXTURE_2D, transparentTexture);
-		for (std::map<float, glm::vec3>::reverse_iterator it = sorted.rbegin(); it != sorted.rend(); ++it)
+		std::sort(sorted.begin(), sorted.end());
+		for (auto it = sorted.rbegin(); it != sorted.rend(); ++it)
 		{
 			model = glm::mat4(1.0f);
 			model = glm::translate(model, it->second);
@@ -1135,7 +1135,8 @@ int main()
 		// windows 
 		glBindVertexArray(transparentVAO);
 		glBindTexture(GL_TEXTURE_2D, transparentTexture);
-		for (std::map<float, glm::vec3>::reverse_iterator it = sorted.rbegin(); it != sorted.rend(); ++it)
+		std::sort(sorted.begin(), sorted.end());
+		for (auto it = sorted.rbegin(); it != sorted.rend(); ++it)
 		{
 			model = glm::mat4(1.0f);
 			model = glm::translate(model, it->second);
