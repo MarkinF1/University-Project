@@ -755,9 +755,9 @@ int main()
 	unsigned int floorTexture = loadTexture("Content/floor.jpg");
 	//unsigned int woodTexture = loadTexture("Container/woodenfloor2.jpg");
 	unsigned int transparentTexture = loadTexture("Content/window.png");//-----------------------------------------------------
-	unsigned int diffuseParallaxMap = loadTexture("Content/parallax/ChristmasSocks.jpg");
-	unsigned int normalParallaxMap = loadTexture("Content/parallax/ChristmasSocksNormalMap.jpg");
-	unsigned int heightParallaxMap = loadTexture("Content/parallax/ChristmasSocksDisplacementMap.jpg");
+	unsigned int diffuseParallaxMap = loadTexture("Content/parallax/bricks.jpg");
+	unsigned int normalParallaxMap = loadTexture("Content/parallax/bricks_normal.jpg");
+	unsigned int heightParallaxMap = loadTexture("Content/parallax/bricks_disp.jpg");
 
 	//-----------------------------
 	// transparent window locations
