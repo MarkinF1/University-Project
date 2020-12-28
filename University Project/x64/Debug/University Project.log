@@ -10,6 +10,4 @@ D:\My files\University-Project\University Project\Source.cpp(97,10): warning C42
 D:\My files\University-Project\University Project\Source.cpp(98,10): warning C4244: =: преобразование "double" в "float", возможна потеря данных
 D:\My files\University-Project\University Project\Source.cpp(104,28): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
 D:\My files\University-Project\University Project\Source.cpp(862,24): warning C4244: инициализация: преобразование "double" в "GLfloat", возможна потеря данных
-LINK : warning LNK4098: библиотека по умолчанию "MSVCRT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
-SOIL.lib(stb_image_aug.obj) : warning LNK4099: "SOIL.pdb" PDB не найден с "SOIL.lib(stb_image_aug.obj)" или на "D:\My files\University-Project\University Project\x64\Debug\SOIL.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
   University Project.vcxproj -> D:\My files\University-Project\University Project\x64\Debug\University Project.exe
